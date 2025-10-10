@@ -1,0 +1,10 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Проста сторінка</title>
+</head>
+<body>
+    <h1>Вітаємо на простій сторінці!</h1>
+    <p>Це приклад простої HTML-сторінки.</p>
+</body>
+</html>
