@@ -1,0 +1,55 @@
+/* Основні стилі */
+body {
+	font-family: Verdana, sans-serif;
+	color: #212529;
+	background-color: #FFFFFF;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("img/background.png");
+}
+
+/* Контейнер для контенту */
+.container {
+	max-width: 960px;
+	height: 100vh;
+	padding: 20px;
+}
+
+/* Заголовок H1 */
+h1 {
+	background-color: #212529;
+	color: #FFFFFF;
+	padding: 15px 20px;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+/* Стилі для кнопки */
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #212529;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-radius: 20px;
+	margin-top: 20px;
+	transition: background-color 0.4s ease;
+	border: 1px solid #212529;
+}
+
+.btn:hover {
+	background-color: #ffd500;
+	color: #212529;
+	border: 1px solid #212529;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 20px;
+	border: 1px solid #212529;
+}

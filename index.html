@@ -1,10 +1,184 @@
+﻿<!DOCTYPE html>
+
 <html lang="uk">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Проста сторінка</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Журавель Роман - сайт викладача</title>
+	<link rel="stylesheet" href="style.css">
 </head>
+
+<style>
+	.top {display: flex;}
+	.left {width: 80%;
+		padding-left: 10px;
+		padding-right: 10px;}
+	.right {width: 20%;}
+	.video-container {position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+		max-width: 100%;
+		background: #000;
+		border-radius: 20px;
+		border: 1px solid #212529;}
+	.video-container iframe {position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;}
+</style>
+
 <body>
-    <h1>Вітаємо на простій сторінці!</h1>
-    <p>Це приклад простої HTML-сторінки.</p>
+	
+	<div class=container>
+	
+		<div class=top>
+			<div class=left>
+				<h1>Журавель Роман</h1>
+				<p>Сайт викладача</p>
+			</div>
+			<div class=right>
+				<p align=right><img src="img/foto.jpg" width=200 height=200></p>
+			</div>
+		</div>
+		
+		<p align=center>
+		<a href="#link1" class="btn">Мої принципи</a>
+		<a href="publications/pub.html" class="btn">Публікації</a>
+		<a href="qualifications/qual.html" class="btn">Підвищення кваліфікації</a>
+		<a href="certificates/cert.html" class="btn">Сертифікати</a>
+		<a href="awards/awd.html" class="btn">Нагороди</a>
+		<a href="#link2" class="btn">Освітнє середовище</a>
+		<a href="materials.html" class="btn">Методичні матеріали</a>
+		<a href="#link3" class="btn">Зв'язок</a>
+		</p>
+		
+		<br>
+		
+		<h2 align=center>Загальні відомості</h2>
+		
+		<h3>Освіта</h3>
+		<p><b>2009</b> Сумський державний університет, кваліфікація магістр з електронних систем</p>
+		<p><b>2005</b> Прилуцький агротехнічний технікум, кваліфікація технік-електрик</p>
+		<h3>Посади</h3>
+		<p><b>2010-2025</b> Викладач спеціальних дисциплін</p>
+		<p><b>2018-2021</b> Голова циклової комісії спеціальних комп'ютерних дисциплін</p>
+		<p><b>2006-2010</b> Завідуючий інформаційним центром коледжу</p>
+		<p><b>2005-2010</b> Лаборант на відділенні "Електрифікація і автоматизація сільського господарства"</p>
+		
+		<p><img src="img/pic1.jpg" width=100%></p>
+		
+		<h3>Дисципліни</h3>
+		<p><b>2024-2025</b> Основи цифрового керування та програмування мікроконтролерів</p>
+		<p><b>2024-2025</b> Інформаційні технології</p>
+		<p><b>2023-2025</b> Комп'ютерні мережі</p>
+		<p><b>2016-2025</b> Архітектура комп'ютерів</p>
+		<p><b>2016-2025</b> Алгоритми та методи обчислень</p>
+		<p><b>2011-2018, 2024-2025</b> Основи автоматики</p>
+		<p><b>2018-2024</b> Основи програмної інженерії</p>
+		<p><b>2017-2021, 2023-2024</b> Організація баз даних</p>
+		<p><b>2011-2020</b> Комп'ютери та комп'ютерні технології</p>
+		<p><b>2011-2015</b> Інформаційні та комп'ютерні технології</p>
+		<p><b>2010</b> Основи інформатики та обчислювальної техніки</p>
+		
+		<p><img src="img/pic2.jpg" width=100%></p>
+		
+		<h3>Досягнення в коледжі</h3>
+		<p><b>2020</b> В лабораторії "Контролерної техніки" створив лабораторні стенди на базі контролерів Unitronix V700 і написав програми до них для вивчення принципів функціонування контролерної техніки.</p>
+		<p><b>2014</b> Обладнав і оформив "Кабінет комп’ютерної техніки" для проведення занять зі спеціальності 123 Комп'ютерна інженерія. На той час перший кабінет на нововідкритому відділенні.</p>
+		<p><b>2007</b> Організував інформаційний центр в коледжі для всебічної IT підтримки інфраструктури коледжу. На даний момент цей підрозділ еволюціонував і займається веденням бази ЄДЕБО зі сторони коледжу.</p>
+		
+		<div class="video-container">
+			<iframe 
+				src="https://www.youtube.com/embed/BAggDWRZsgM" 
+				title="Unitronics V700 Klinkmann" 
+				frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				allowfullscreen>
+			</iframe>
+		</div>
+		
+		<br>
+		
+		<h2 id=link1 align=center>Мої принципи</h2>
+		
+		<div class=top>
+			<div class=right>
+				<p align=center><img src="img/img1-klod.jpg" width=120></p>
+			</div>
+			<div class=left>
+				<p>Знання деяких принципів легко компенсує незнання деяких фактів.</p>
+				<p align=right><b>Клод Гельвецій</b><br>філософ-матеріаліст</p>
+			</div>
+		</div>
+		
+		<div class=top>
+			<div class=right>
+				<p align=center><img src="img/img2-ruba.jpg" width=120></p>
+			</div>
+			<div class=left>
+				<p>Справжня освіта здобувається тільки шляхом самоосвіти.</p>
+				<p align=right><b>Микола Рубакін</b><br>просвітник, учений, письменник</p>
+			</div>
+		</div>
+		
+		<div class=top>
+			<div class=right>
+				<p align=center><img src="img/img3-dist.jpg" width=120></p>
+			</div>
+			<div class=left>
+				<p>Неправильне знання, гірше, ніж незнання.</p>
+				<p align=right><b>Адольф Дістервег</b><br>педагог-демократ</p>
+			</div>
+		</div>
+		
+		<div class=top>
+			<div class=right>
+				<p align=center><img src="img/img4-spen.jpg" width=120></p>
+			</div>
+			<div class=left>
+				<p>Просвітництво має своєю метою виховання характеру.</p>
+				<p align=right><b>Герберт Спенсер</b><br>філософ і соціолог</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<h2 id=link2 align=center>Освітнє середовище</h2>
+		
+		<a href="https://classroom.google.com/c/NzExNTMwNjUxODAy?cjc=smm6ibm" class="btn">ІНФОРМАЦІЙНІ ТЕХНОЛОГІЇ<br>1 пр. комп. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/NjU2ODE3MzM5MzM0?cjc=kkyntqu" class="btn">АЛГОРИТМИ І МЕТОДИ ОБЧИСЛЕНЬ<br>1 пр. комп. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/NTkyNTc0MjU2Mzkz?cjc=4qzvpvr" class="btn">АЛГОРИТМИ І МЕТОДИ ОБЧИСЛЕНЬ<br>2 комп. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/NzQ2MDU3OTg2OTk3?cjc=sdz6tez" class="btn">АРХІТЕКТУРА КОМП'ЮТЕРІВ<br>2 пр. комп. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/NTkyNTc1MzEyNjMz?cjc=2yhrnnn" class="btn">АРХІТЕКТУРА КОМП'ЮТЕРІВ<br>3 комп. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/Njg3OTU5MDc2MTU4?cjc=kvwfjny" class="btn">КОМП'ЮТЕРНІ МЕРЕЖІ<br>2 пр. комп. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/NzU1MzAyNjAwNDQx?cjc=lwa5xpm" class="btn">КОМП'ЮТЕРНІ МЕРЕЖІ<br>3 комп. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/NTQ1NTM1NDA4NzI5?cjc=p4g6uce" class="btn">КОМП'ЮТЕРНІ МЕРЕЖІ<br>4 комп. 2024-2025 н.р.</a><br>		
+		<a href="https://classroom.google.com/c/NzExNTMxMTIxMDYz?cjc=t3ve276" class="btn">ОСНОВИ АВТОМАТИКИ<br>2-А пр. ел. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/NzExNTM5MDg3NDk1?cjc=vf5dvuw" class="btn">ОСНОВИ АВТОМАТИКИ<br>2-Б пр. ел. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/NzExNTMxMjExNTk5?cjc=k2uviux" class="btn">ОСНОВИ ЦИФРОВОГО КЕРУВАННЯ ТА ПРОГРАМУВАННЯ МІКРОКОНТРОЛЕРІВ<br>3 пр. ел. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/NzQ5NTY3NTk5Nzg3?cjc=psarltc" class="btn">ПРАКТИКА З ОТРИМАННЯ РОБОЧОЇ ПРОФЕСІЇ<br>2 пр. комп. 2024-2025 н.р.</a><br>
+		<a href="https://classroom.google.com/c/NzYwMTYyMDk3NTA4?cjc=z7plhop" class="btn">ПРАКТИКА З ОТРИМАННЯ РОБОЧОЇ ПРОФЕСІЇ<br>3 комп. 2024-2025 н.р.</a><br>		
+
+		<br>
+		
+		<h2 id=link3 align=center>Зв'язок зі мною</h2>
+		
+		<p align=center><a href="mailto:roman.zhuravel@ptfc.ukr.education" class="btn">roman.zhuravel@ptfc.ukr.education</a></p>
+		
+		<br>
+		
+		<p><img src="img/pic3.jpg" width=100%></p>
+		
+		<p align=right>2020-2025 Roman Zhuravel</p>
+		
+		<br>
+		
+	</div>
+
 </body>
+
 </html>
