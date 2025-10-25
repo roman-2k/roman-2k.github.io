@@ -1,85 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
-  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <!-- Головна сторінка -->
-  <url>
-    <loc>https://roman-2k.github.io/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Додаткові сторінки (додай свої реальні, якщо є) -->
-  <url>
-    <loc>https://roman-2k.github.io/materials.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://roman-2k.github.io/awards/awd.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://roman-2k.github.io/certificates/cert.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://roman-2k.github.io/publications/pub.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-
-  <url>
-    <loc>https://roman-2k.github.io/publications/s20a.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://roman-2k.github.io/publications/s20b.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-
-  <url>
-    <loc>https://roman-2k.github.io/publications/s23a.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://roman-2k.github.io/publications/s23b.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://roman-2k.github.io/publications/s23c.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://roman-2k.github.io/publications/s24a.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://roman-2k.github.io/qualifications/qual.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
+	<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://roman-2k.github.io/</loc>
+	<lastmod>2025-10-25T19:27:09+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/publications/pub.html</loc>
+	<lastmod>2025-10-25T19:27:09+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/qualifications/qual.html</loc>
+	<lastmod>2025-10-25T19:27:09+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/certificates/cert.html</loc>
+	<lastmod>2025-10-25T19:27:09+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/awards/awd.html</loc>
+	<lastmod>2025-10-25T19:27:09+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/materials.html</loc>
+	<lastmod>2025-10-25T19:27:09+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/publications/s24a.html</loc>
+	<lastmod>2025-10-25T19:27:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/publications/s23c.html</loc>
+	<lastmod>2025-10-25T19:27:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/publications/s23a.html</loc>
+	<lastmod>2025-10-25T19:27:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/publications/s23b.html</loc>
+	<lastmod>2025-10-25T19:27:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/publications/s20b.html</loc>
+	<lastmod>2025-10-25T19:27:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://roman-2k.github.io/publications/s20a.html</loc>
+	<lastmod>2025-10-25T19:27:10+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>
-
