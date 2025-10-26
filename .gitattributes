@@ -1,2 +1,1 @@
-*.xml text eol=lf
-*.xml linguist-language=XML
+sitemap.xml text/xml
