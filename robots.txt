@@ -1,12 +1,4 @@
-# robots.txt for https://roman-2k.github.io/
-
 User-agent: *
 Allow: /
 
-# Вкажемо шлях до карти сайту (sitemap.xml)
 Sitemap: https://roman-2k.github.io/sitemap.xml
-
-# Опціонально: заборонити індексацію службових директорій (якщо вони існують)
-Disallow: /assets/
-Disallow: /scripts/
-Disallow: /temp/
