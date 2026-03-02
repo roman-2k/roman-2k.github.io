@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://roman-2k.github.io/sitemap.xml
-Sitemap: https://roman-2k.github.io/sitemap.txt
